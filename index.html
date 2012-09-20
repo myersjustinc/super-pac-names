@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Americans and Portuguese for a better Super PAC app tomorrow, tomorrow</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script id="items" type="text/html">
+            {{#items}}
+            <div class="item{{#frequencyClasses}} {{.}}{{/frequencyClasses}}{{#receiptsClasses}} {{.}}{{/receiptsClasses}}">
+                <h3 class="fragment">{{fragment}}</h3>
+                <p class="frequency">{{frequency}}</p>
+                <p class="receipts">${{receipts}}</p>
+                <ul class="names">
+                    {{#names}}<li class="name">{{.}}</li>{{/names}}
+                </ul>
+            </div>
+            {{/items}}
+        </script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p></a>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+<h1>Americans and Portuguese for a better Super PAC app tomorrow, tomorrow</h1>
+
+<p>Check out our list of common words and phrases in Super PAC names, including the number of committees sharing those words or phrases and the total amount of money those committees have received.</p>
+<p>Data last updated: Sept. 20, 2012</p>
+
+<a href="http://developer.nytimes.com/"><img src="http://graphics8.nytimes.com/packages/images/developer/logos/poweredby_nytimes_200a.png"></a>
+
+<h2>filter by fragment frequency</h2>
+<ul id="filters">
+  <li><a href="#" data-filter="*">show all</a></li>
+  <li><a href="#" class="less-than-10" data-filter=".less-than-10">less than 10</a></li>
+  <li><a href="#" class="less-than-200" data-filter=".less-than-50">less than 50</a></li>
+  <li><a href="#" class="less-than-200" data-filter=".less-than-100">less than 100</a></li>
+  <li><a href="#" class="less-than-200" data-filter=".less-than-200">less than 200</a></li>
+  <li><a href="#" class="less-than-250" data-filter=".less-than-250">less than 250</a></li>
+</ul>
+
+<h2>sort</h2>
+<ul id="sort-by">
+  <li><a href="#fragment" sortascending="false">fragment a-z</a></li>
+  <li><a href="#fragment" sortascending="">fragment z-a</a></li>
+  <li><a href="#frequency" sortascending="">frequency low-to-high</a></li>
+  <li><a href="#frequency" sortascending="false">frequency high-to-low</a></li>
+  <li><a href="#receipts" sortascending="">receipts low-to-high</a></li>
+  <li><a href="#receipts" sortascending="false">receipts high-to-low</a></li>
+</ul>
+
+<div id="container">
+
+</div>
+
+
+        <script src="js/vendor/jquery-1.8.1.min.js"></script>
+        <script src="js/vendor/ICanHaz.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        </body>
+        </html>
